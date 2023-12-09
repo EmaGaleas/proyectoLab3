@@ -2,6 +2,9 @@
 #define LABORATORIO_H
 
 #include <iostream>
+#include <ostream>
+
+using std::ostream;
 using std::string;
 
 class Laboratorio
