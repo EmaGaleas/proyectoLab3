@@ -1,8 +1,9 @@
 #ifndef CFRAME_H
 #define CFRAME_H
-#include "solicitante.h"
+#include <iostream>
 #include "lista.h"
 #include <QMainWindow>
+using std::string;
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class cframe; }
@@ -12,8 +13,6 @@ class cframe : public QMainWindow
 {
     Q_OBJECT
 private:
-    //LISTA DE SOLICITANTES
-    lista<Solicitante> solicitantes;
 
     //ATRIBUTOS PARA LA HERENCIA
     string nombre,numerodecuenta,correo; //SOLICITANTES
