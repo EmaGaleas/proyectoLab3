@@ -29,6 +29,21 @@ public:
     ~cframe();
 
 
+private slots:
+    void on_rb_Alumno_clicked();
+    void ocultarInicio();
+    void mostrar();
+    void limpiarAreas();
+    bool revisarTodoLleno();
+
+    void on_rb_Docente_clicked();
+
+    void on_rb_Admin_clicked();
+
+    void on_rb_EducacionC_clicked();
+
+    void on_btn_Enviar_clicked();
+
 private:
     Ui::cframe *ui;
 };
