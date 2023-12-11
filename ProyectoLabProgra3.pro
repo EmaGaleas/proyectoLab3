@@ -39,3 +39,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     CMakeLists.txt
+
+RESOURCES += \
+    imagenes.qrc

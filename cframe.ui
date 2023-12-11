@@ -6,323 +6,338 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>910</width>
+    <height>738</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>cframe</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QComboBox" name="LaboratoriosDisponibles">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>40</y>
-      <width>101</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Computo #1</string>
-     </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>886</width>
+         <height>664</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0" rowspan="2" colspan="2">
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="inputMethodHints">
+           <set>Qt::ImhNoTextHandles</set>
+          </property>
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <widget class="QWidget" name="tab_menu">
+           <attribute name="title">
+            <string>Page</string>
+           </attribute>
+           <widget class="QLabel" name="lbl_menu">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>861</width>
+              <height>611</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="imagenes.qrc">:/0.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="tab_info">
+           <attribute name="title">
+            <string>Tab 1</string>
+           </attribute>
+           <widget class="QLabel" name="lbl_info">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>861</width>
+              <height>611</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="imagenes.qrc">:/3.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="Reserva">
+           <attribute name="title">
+            <string>Tab 2</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0" rowspan="3" colspan="4">
+             <widget class="QLabel" name="label_9">
+              <property name="font">
+               <font>
+                <family>Nirmala UI</family>
+                <pointsize>22</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>FORMULARIO</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="20" column="0" colspan="2">
+             <widget class="QLabel" name="label_7">
+              <property name="text">
+               <string>Número de Cuenta</string>
+              </property>
+             </widget>
+            </item>
+            <item row="18" column="0" colspan="3">
+             <widget class="QLabel" name="label_5">
+              <property name="text">
+               <string>Repetir Reservación</string>
+              </property>
+             </widget>
+            </item>
+            <item row="19" column="2" colspan="2">
+             <widget class="QLineEdit" name="Nombre"/>
+            </item>
+            <item row="8" column="0" rowspan="3" colspan="2">
+             <widget class="QLabel" name="label_2">
+              <property name="text">
+               <string>Clase para la cuál requiere el uso del laboratorio</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="3">
+             <widget class="QComboBox" name="LaboratoriosDisponibles">
+              <property name="font">
+               <font>
+                <family>Nirmala UI</family>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <item>
+               <property name="text">
+                <string>Computo #1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Computo #5</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Física</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Máquinas y Herramientas</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Electrónica</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Mecatrónica</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Biomédica</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Energía</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Lab. Industrial</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Lab. Civil</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Redes</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Química</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Software</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Telecomunicaciones</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Automatización</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Computo #2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Computo #3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Computo #4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Inteligencia Artíficial</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="22" column="0" colspan="4">
+             <widget class="QLineEdit" name="Numerodecuenta_2"/>
+            </item>
+            <item row="11" column="0" colspan="2">
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>Motivo del uso del laboratorio</string>
+              </property>
+             </widget>
+            </item>
+            <item row="15" column="0" rowspan="2" colspan="4">
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>Perfil del Solicitante</string>
+              </property>
+             </widget>
+            </item>
+            <item row="21" column="0" colspan="4">
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>Correo Electrónico Institucional (usuario@unitec.edu)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="3">
+             <widget class="QLineEdit" name="Motivo"/>
+            </item>
+            <item row="19" column="0" colspan="2">
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>Nombre Completo</string>
+              </property>
+             </widget>
+            </item>
+            <item row="20" column="2" colspan="2">
+             <widget class="QLineEdit" name="Numerodecuenta"/>
+            </item>
+            <item row="18" column="3">
+             <widget class="QComboBox" name="RepetirReservacion">
+              <item>
+               <property name="text">
+                <string>Daily</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Weekly</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="9" column="3">
+             <widget class="QLineEdit" name="Clase"/>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="lbl_lab">
+              <property name="font">
+               <font>
+                <family>Nirmala UI</family>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>Laboratorio Solicitado</string>
+              </property>
+             </widget>
+            </item>
+            <item row="12" column="3">
+             <widget class="QComboBox" name="PerfilSolicitante">
+              <item>
+               <property name="text">
+                <string>Docente</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Alumno</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Educacion Continua</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Administrativo</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>Computo #5</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Física</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Máquinas y Herramientas</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Electrónica</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Mecatrónica</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Biomédica</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Energía</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Lab. Industrial</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Lab. Civil</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Redes</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Química</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Software</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Telecomunicaciones</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Automatización</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Computo #2</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Computo #3</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Computo #4</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Inteligencia Artíficial</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>40</y>
-      <width>121</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Laboratorio Solicitado</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>80</y>
-      <width>271</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Clase para la cuál requiere el uso del laboratorio</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Clase">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>80</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>130</y>
-      <width>271</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Motivo del uso del laboratorio</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Motivo">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>130</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>180</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Perfil del Solicitante</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="PerfilSolicitante">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>180</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Docente</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Alumno</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Educacion Continua</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrativo</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>230</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Repetir Reservación</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="RepetirReservacion">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>230</y>
-      <width>81</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Daily</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Weekly</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>280</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Nombre Completo</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Nombre">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>280</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>330</y>
-      <width>251</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Número de Cuenta</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Numerodecuenta">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>330</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>380</y>
-      <width>291</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Correo Electrónico Institucional (usuario@unitec.edu)</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Numerodecuenta_2">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>380</y>
-      <width>113</width>
-      <height>24</height>
-     </rect>
-    </property>
-   </widget>
+   </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menubar">
@@ -330,12 +345,20 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>21</height>
+     <width>910</width>
+     <height>25</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuRESERVACION_LABORATORIO">
+    <property name="title">
+     <string>RESERVACION LABORATORIO</string>
+    </property>
+   </widget>
+   <addaction name="menuRESERVACION_LABORATORIO"/>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="imagenes.qrc"/>
+ </resources>
  <connections/>
 </ui>
