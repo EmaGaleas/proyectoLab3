@@ -18,7 +18,7 @@ class cframe : public QMainWindow
     Q_OBJECT
 private:
 
-    lista<Solicitante> labs;
+   // lista<Solicitante> labs;
     //ATRIBUTOS PARA LA HERENCIA
     string nombre,numerodecuenta,correo; //SOLICITANTES
     string nombrelab,clase,motivo,frecuencia,equipo,fecha,horainicio,horafinal; //LABORATORIO
@@ -37,11 +37,8 @@ private slots:
     bool revisarTodoLleno();
 
     void on_rb_Docente_clicked();
-
     void on_rb_Admin_clicked();
-
     void on_rb_EducacionC_clicked();
-
     void on_btn_Enviar_clicked();
 
 private:

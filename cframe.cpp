@@ -135,14 +135,11 @@ bool cframe::revisarTodoLleno()
 
 void cframe::on_rb_Docente_clicked()    { mostrar(); }
 
-
 void cframe::on_rb_Admin_clicked()      { mostrar(); }
-
 
 void cframe::on_rb_EducacionC_clicked() { mostrar(); }
 
 void cframe::on_rb_Alumno_clicked()     { mostrar(); }
-
 
 void cframe::on_btn_Enviar_clicked()
 
