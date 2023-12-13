@@ -13,7 +13,6 @@ SOURCES += \
     alumno.cpp \
     docente.cpp \
     educacioncontinua.cpp \
-    laboratorio.cpp \
     main.cpp \
     cframe.cpp \
     solicitante.cpp
@@ -24,7 +23,6 @@ HEADERS += \
     cframe.h \
     docente.h \
     educacioncontinua.h \
-    laboratorio.h \
     lista.h \
     nodo.h \
     solicitante.h
