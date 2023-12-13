@@ -589,20 +589,17 @@
            <set>Qt::ImhNoTextHandles</set>
           </property>
           <property name="currentIndex">
-           <number>2</number>
+           <number>1</number>
           </property>
           <widget class="QWidget" name="tab_menu">
            <attribute name="title">
-            <string>Page</string>
+            <string>MENU</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_5">
             <item row="0" column="0">
              <widget class="QLabel" name="lbl_menu">
               <property name="text">
                <string/>
-              </property>
-              <property name="pixmap">
-               <pixmap resource="imagenes.qrc">:/0.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>true</bool>
@@ -613,16 +610,13 @@
           </widget>
           <widget class="QWidget" name="tab_info">
            <attribute name="title">
-            <string>Tab 1</string>
+            <string>INFO</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_4">
             <item row="0" column="0">
              <widget class="QLabel" name="lbl_info">
               <property name="text">
                <string/>
-              </property>
-              <property name="pixmap">
-               <pixmap resource="imagenes.qrc">:/3.png</pixmap>
               </property>
               <property name="scaledContents">
                <bool>true</bool>
@@ -633,7 +627,7 @@
           </widget>
           <widget class="QWidget" name="Reserva">
            <attribute name="title">
-            <string>Tab 2</string>
+            <string>FORM</string>
            </attribute>
            <layout class="QGridLayout" name="gridLayout_3">
             <item row="9" column="2" colspan="2">
@@ -1334,8 +1328,6 @@
    <addaction name="menuRESERVACION_LABORATORIO"/>
   </widget>
  </widget>
- <resources>
-  <include location="imagenes.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

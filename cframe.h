@@ -2,8 +2,8 @@
 #define CFRAME_H
 #include <iostream>
 
-//#include "laboratorio.h"
-//#include "lista.h"
+#include "solicitante.h"
+#include "lista.h"
 
 #include <QMainWindow>
 using std::string;
@@ -18,7 +18,7 @@ class cframe : public QMainWindow
     Q_OBJECT
 private:
 
-    //lista<Laboratorio> labs;
+    lista<Solicitante> labs;
     //ATRIBUTOS PARA LA HERENCIA
     string nombre,numerodecuenta,correo; //SOLICITANTES
     string nombrelab,clase,motivo,frecuencia,equipo,fecha,horainicio,horafinal; //LABORATORIO

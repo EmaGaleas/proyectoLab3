@@ -12,10 +12,10 @@ cframe::cframe(QWidget *parent)
     ui->setupUi(this);
     ocultarInicio();
 
-//    QImage info(":/3.png");
-//    QImage menu(":/0.png");
-//    ui->lbl_info->setPixmap(QPixmap::fromImage(info));
-//    ui->lbl_menu->setPixmap(QPixmap::fromImage(menu));
+    QImage info(":/3.png");
+    QImage menu(":/0.png");
+    ui->lbl_info->setPixmap(QPixmap::fromImage(info));
+    ui->lbl_menu->setPixmap(QPixmap::fromImage(menu));
 }
 
 cframe::~cframe()

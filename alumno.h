@@ -10,10 +10,10 @@ class Alumno : public Solicitante
 private:
 public:
     Alumno();
-    Alumno(string nombre, string numerodecuenta, string correo);
+    Alumno(string labSolicitado,string clase,string motivo,string perfil,string nombreI,double numeroI,string correoI,int cantidad,string infoGrupo,string equipo,string fecha,string horaInicio,string horaFin);
     ~Alumno();
 
-    void Imprimir() const;
+    virtual void Imprimir()const;
 };
 
 #endif // ALUMNO_H
